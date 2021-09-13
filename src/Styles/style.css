@@ -1,0 +1,70 @@
+.card-icon{
+    float: right;
+}
+
+.steps-wizard{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: flex-end;
+    height: 250px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.step.step{
+    border: 2px solid salmon;
+    height: 200px;
+    width: 250px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px !important;
+}
+
+.add-btn{
+   background-color: salmon;
+   border: 0;
+   padding: 12px 22px;
+   border-radius: 8px;
+   color: #fff;
+   align-self: center;
+   cursor: pointer;
+   margin-left: 10px;
+   
+}
+
+.arrow-icon{
+    align-self: center;
+    color: salmon !important;
+    /* position: relative;
+    top:-50px;
+    left: 50px; */
+}
+
+.fade-btn{
+    background-color: rgb(156, 145, 144);
+}
+
+.ui.selection.dropdown.actions-dropdown{
+    background-color: salmon;
+    float: right;
+    margin: 10px;
+    color:black;
+}
+
+.ui.dropdown:not(.button)>.default.text{
+    color: black;
+}
+
+.item-count{
+    color: salmon;
+    font-size: 2rem;
+    position: relative;
+    top:-125px;
+    margin: 0 20px;
+}
+
+.info{
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+}
